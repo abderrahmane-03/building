@@ -1,0 +1,1044 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(#161616, #000000);
+}
+
+.logo {
+    width: 55px;
+    height: 40px;
+    margin: 10px;
+
+}
+
+nav {
+    display: inline-flex;
+    align-items: center;
+    background: (#161616);
+    padding: 5px;
+}
+
+
+
+
+.nav-list a {
+    text-decoration: none;
+    color: white;
+    /* Set link color */
+}
+
+.logo {
+    max-width: 100px;
+    /* Set a maximum width for your logo */
+}
+
+
+nav ul {
+
+
+    border: #060606;
+
+    list-style-type: none;
+
+}
+
+
+nav ul li {
+
+    display: inline;
+    margin-left: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+.undernav {
+    display: flex;
+}
+
+.cap {
+    width: 260px;
+    height: 150PX;
+}
+
+.captue {
+    width: 242px;
+    height: 150PX;
+
+}
+
+.tem1 {
+    width: 250px;
+    height: 150PX;
+
+}
+
+.ca1 {
+    width: 260px;
+    height: 150PX;
+}
+
+.cre {
+    width: 245px;
+    height: 150PX;
+}
+
+.shop {
+    background-color: rgb(51, 99, 243);
+    text-align: center;
+    color: #ffffff;
+    height: 20px;
+
+}
+
+.button {
+    background-color: transparent;
+    color: #ffffff;
+    border-radius: 5px;
+    border-color: rgb(51, 99, 243);
+    border-style: groove;
+    width: 6rem;
+    height: 27px;
+    margin-left: 8rem;
+    cursor: pointer;
+}
+
+.welcome {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+}
+
+.welcome img {
+    position: relative;
+    width: 50%;
+}
+
+.welcome_text {
+    position: absolute;
+    left: 20rem;
+    bottom: 15rem;
+    z-index: 1;
+}
+
+.welcome_text h1 {
+    font-size: 4em;
+    color: rgb(51, 99, 243);
+}
+
+.welcome_text p {
+    color: #fafafa;
+    margin-left: 4px;
+
+}
+
+.inbox h1 {
+
+    color: #ffffff;
+    font-size: 27px;
+    padding: 1rem;
+
+}
+
+.youremail {
+    display: flex;
+}
+
+.email {
+
+    width: 23rem;
+    margin: .625rem 0;
+    border: 1px solid #ffffff;
+    border-radius: .25rem;
+    font-family: ProximaNova, "Proxima Nova", ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    display: block;
+    padding: .5rem .75rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666;
+    background-color: #ffffff;
+    background-clip: padding-box;
+   
+}
+
+.ok {
+    cursor: pointer;
+    font-size: large;
+    position: absolute;
+    top: 1.8rem;
+    right: 54rem;
+    border: none;
+
+}
+
+.hf {
+    display: flex;
+}
+
+.h1 {
+    margin-left: 20.5rem;
+}
+
+.info {
+    position: relative;
+    display: flex;
+
+}
+
+.location {
+
+    left: 30rem;
+    width: 23rem;
+    margin: .625rem 0;
+    border: 1px solid #ddd;
+    border-radius: .25rem;
+    font-family: ProximaNova, "Proxima Nova", ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    display: flex;
+    padding: .5rem .75rem;
+    margin-left: 23rem;
+
+
+    background-color: #fff;
+    background-clip: padding-box;
+   
+}
+
+.flag {
+    cursor: pointer;
+    height: 2rem;
+    margin-right: 5rem;
+
+}
+
+.click {
+    cursor: pointer;
+    margin-left: 7rem;
+}
+
+.location p {
+    color: #060606;
+    margin-top: 7px;
+    cursor: default;
+
+}
+
+.accept {
+    display: flex;
+    color: #fff;
+
+}
+
+.accept div a {
+    display: block;
+    color: #666;
+    margin: 10px;
+}
+
+.accept div {
+    padding: 2rem 6rem;
+}
+
+.ACCEPTIMG {
+    height: 2.5REM;
+}
+
+.BANK {
+    position: relative;
+    display: flex;
+
+
+    min-width: 412px;
+}
+
+.BANK h4 {
+    position: absolute;
+    top: 5rem;
+}
+
+.img {
+    margin-left: 4rem;
+    min-width: 13.8rem;
+}
+
+.social {
+    position: relative;
+    display: flex;
+    margin-left: 1.7REM;
+
+    min-width: 412px;
+}
+
+.social h4 {
+    color: white;
+    position: absolute;
+    top: 0.5rem;
+    right: 24rem;
+}
+
+.socialmedia {
+    display: flex;
+    margin-left: 56rem;
+    min-width: 13.8rem;
+}
+
+.footer-copyright {
+
+    padding: 20px 0 17px;
+    border-top: 1px solid #ddddde;
+}
+
+.copyright {
+    display: flex;
+    color: #5f5f5f;
+
+}
+
+.copyright p {
+    display: flex;
+    align-items: center;
+    margin-left: 28rem;
+}
+
+.footerlogo {
+    height: 3rem;
+}
+
+.faqs {
+    color: white;
+    min-height: 112vh;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    min-height: 24vh;
+}
+
+.title {
+    font-size: 2rem;
+    MARGIN: 2rem 0rem;
+    border-bottom: 7PX solid rgb(51, 99, 243);
+}
+
+.faq {
+    max-width: 700px;
+    margin-top: 2rem;
+    cursor: pointer;
+    border-bottom: 2px solid white;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.question h3 {
+    font-size: 1.5rem;
+}
+
+.bg {
+    position: absolute;
+    z-index: -1;
+    height: 47.5rem;
+    width: 79rem;
+}
+
+.plus {
+    height: 1.6rem;
+}
+
+.answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1.4s ease;
+}
+
+.answer p {
+    padding-top: 1rem;
+    line-height: 1.6;
+    font-size: 1.3rem;
+}
+
+.faq .answer.active {
+    max-height: 300px;
+
+}
+
+.faq .plus {
+    transition: transform 0.3s;
+}
+
+.faq .plus:active {
+    transform: rotate(90deg);
+
+}
+
+.popup {
+    border-radius: 5px;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    z-index: 1000;
+}
+
+.popup-content {
+    text-align: center;
+}
+
+.close-popup {
+    position: absolute;
+    top: 0.1px;
+    right: 7px;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.checkmark {
+    color: green;
+}
+
+.Xmark {
+    color: red;
+}
+
+.location-select {
+
+    border: 0;
+    margin-left: 1rem;
+    width: 18rem;
+    height: 2.5rem;
+}
+
+.burgermenu {
+    display: none;
+}
+
+/* style-mobile.css */
+@media screen and (max-width: 768px) {
+    .logo {
+        margin-left: 20rem;
+    }
+
+    ul {
+        display: none;
+        /* Hide the navigation links */
+        flex-direction: column;
+        background-color: #333;
+        /* Background color for the mobile menu */
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    ul.active {
+        display: flex;
+        /* Show the navigation links when active */
+    }
+
+    ul li {
+        padding: 10px;
+    }
+
+    .burgermenu {
+
+        display: block;
+        cursor: pointer;
+    }
+
+    .burgermenu img {
+        height: 40px;
+
+    }
+
+    .burgermenu .bar {
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 3px 0;
+    }
+
+    .cap {
+        width: 10rem;
+        height: 5rem;
+    }
+
+    .captue {
+        width: 10rem;
+        height: 5rem;
+
+    }
+
+    .tem1 {
+        width: 10rem;
+        height: 5rem;
+
+    }
+
+    .ca1 {
+        width: 12rem;
+        height: 5rem;
+    }
+
+    .cre {
+        width: 12rem;
+        height: 5rem;
+    }
+
+    .shop {
+        background-color: rgb(51, 99, 243);
+        text-align: center;
+        width: 48REM;
+        color: #ffffff;
+        height: 20px;
+
+    }
+
+    section {
+        min-height: 0vh;
+    }
+
+    .welcome {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+
+    }
+
+    .welcome img {
+
+        width: 100.2%;
+    }
+
+    .welcome_text {
+        position: absolute;
+        left: 7rem;
+        bottom: 25rem;
+        z-index: 1;
+    }
+
+    .button {
+        background-color: black;
+        color: rgb(51, 99, 243);
+        border-radius: 5px;
+        border-color: rgb(51, 99, 243);
+        border-style: groove;
+        width: 6rem;
+        height: 27px;
+        margin-left: 8rem;
+        cursor: pointer;
+    }
+
+    .inbox h1 {
+
+        color: #ffffff;
+        font-size: 19px;
+        padding: 1rem;
+        margin-left: 3rem;
+
+    }
+
+    .youremail {
+        display: flex;
+    }
+
+    .email {
+
+        width: 17.2rem;
+
+        border: 1px solid #ffffff;
+        border-radius: .25rem;
+        font-family: ProximaNova, "Proxima Nova", ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+
+
+        margin-left: 5rem;
+        font-size: 1rem;
+
+        color: #666;
+        background-color: #ffffff;
+
+    }
+
+    .ok {
+        cursor: pointer;
+        font-size: large;
+        position: absolute;
+        top: 1.8rem;
+        right: 25rem;
+        border: none;
+
+    }
+
+    .hf {
+        display: flex;
+
+    }
+
+    .h1 {
+        margin-left: 0rem;
+        max-width: 200rem;
+    }
+
+    .info {
+        position: relative;
+        display: flex;
+
+    }
+
+    .location {
+
+
+        width: 18rem;
+        margin: .625rem 0;
+        border: 1px solid #ddd;
+        border-radius: .25rem;
+        font-family: ProximaNova, "Proxima Nova", ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, BlinkMacSystemFont, Helvetica Neue, Arial, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        display: flex;
+
+        margin-left: 2rem;
+
+
+        background-color: #fff;
+
+    }
+
+    .flag {
+        cursor: pointer;
+        height: 0.5rem;
+        margin-right: 5rem;
+
+    }
+
+    .location p {
+        color: #060606;
+        margin-top: 7px;
+        cursor: default;
+
+    }
+
+    .accept {
+        display: flex;
+        color: #fff;
+
+    }
+
+    .accept div a {
+        display: block;
+        color: #666;
+        margin: 10px;
+    }
+
+    .accept div {
+        padding: 1rem 2rem;
+    }
+
+    .BANK {
+        position: relative;
+        display: flex;
+
+    }
+
+    .BANK h4 {
+        position: absolute;
+        top: 2.6rem;
+        right: 22rem;
+    }
+
+    .img {
+        margin-left: 5rem;
+        min-width: 13.8rem;
+    }
+
+    .ACCEPTIMG {
+        height: 2.4REM;
+    }
+
+    .social {
+        position: relative;
+        display: flex;
+        margin-left: 3.3REM;
+
+        min-width: 100px;
+    }
+
+    .social h4 {
+        color: white;
+        position: absolute;
+        top: 0.5rem;
+        right: 20rem;
+    }
+
+    .socialmedia {
+        display: flex;
+        margin-left: 25rem;
+        min-width: 13.8rem;
+    }
+
+    .footer-copyright {
+        width: 48.9rem;
+        padding: 20px 0 17px;
+        border-top: 1px solid #ddddde;
+    }
+
+    .copyright {
+        display: flex;
+        color: #5f5f5f;
+
+    }
+
+    .copyright p {
+        display: flex;
+        align-items: center;
+        margin-left: 12rem;
+    }
+
+    .footerlogo {
+        height: 3rem;
+    }
+
+    .faqs {
+        color: white;
+        min-height: 60vh;
+        width: 100%;
+        margin: 0 0;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .title {
+        font-size: 2rem;
+        MARGIN: 2rem 0rem;
+        border-bottom: 7PX solid rgb(51, 99, 243);
+    }
+
+    .faq {
+        max-width: 500px;
+        margin-top: 2rem;
+        cursor: pointer;
+        border-bottom: 2px solid white;
+    }
+
+    .question {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 1rem;
+
+    }
+
+    .question h3 {
+        font-size: 1.5rem;
+
+    }
+
+    .bg {
+        position: absolute;
+        z-index: -1;
+        height: 45.5rem;
+        width: 50rem;
+    }
+
+    .plus {
+        height: 1.6rem;
+    }
+
+    .answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 1.4s ease;
+    }
+
+    .answer p {
+        padding-top: 1rem;
+        line-height: 1.6;
+        font-size: 1.3rem;
+    }
+
+    .faq .answer.active {
+        max-height: 300px;
+
+    }
+
+    .faq .plus {
+        transition: transform 0.3s;
+    }
+
+    .faq .plus:active {
+        transform: rotate(90deg);
+
+
+    }
+ 
+    .head  {
+        width: 56.4rem;
+    }
+    
+    .product {
+        display: flex;
+        flex-direction:column; margin-left: 23rem;
+        justify-content: space-between;
+        border-radius: 5px;
+    
+    }
+    
+    
+    .producte {
+        flex-direction:column;
+        margin-left: 19rem;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 5px;
+    }
+    
+    .Captu {
+        width: 300px;
+        border-radius: 10px;
+        margin-bottom: 1rem;
+    }
+    
+    .Captur {
+        margin-bottom: 1rem;
+        width: 300px;
+        border-radius: 10px;
+    }
+    
+    .Capture {
+        margin-bottom: 1rem;
+        width: 300px;
+        border-radius: 10px;
+    }
+    
+    .e {margin-bottom: 1rem;
+        width: 200px;
+        border-radius: 10px;
+    }
+    
+    .vix {margin-bottom: 1rem;
+        margin-bottom: 1rem;
+        width: 200px;
+        border-radius: 10px;
+    }
+    
+    .zz {
+        margin-bottom: 1rem;
+        width: 200px;
+        border-radius: 10px;
+    }
+    
+    .categories {
+        margin-left: 9rem;
+        margin-bottom: 1rem;
+        display: flex;
+        color: #ffffff;
+        justify-content: center;
+        padding: 1rem;
+    }
+    
+    .pro1 {margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        color: #ffffff;
+    }
+    
+    .pro2 {margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        color: #ffffff;
+    }
+    
+    .pro {
+        margin-bottom: 1rem;
+        display: flex;
+        flex-direction: column;
+        color: #ffffff;
+    }
+    .price P{
+        font-size: large;
+    }
+    .price {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    
+    .buy-btn {
+        width: 10rem;
+        margin-left: 1rem;
+        border: 1px solid transparent;
+        padding: 10px 20px;
+        border-radius: 15px;
+        border-color: rgb(51, 99, 243);
+        background-color: #000000;
+        transition: 1s ease;
+    }
+    
+    .buy-btn:hover {
+        transform: scale(1.1);
+    }
+    
+    .buy-btn a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+    
+    }
+    
+    .pro p {
+        margin-left: 2rem;
+    }
+    
+    .pro1 p {
+        margin-left: 3rem;
+    }
+    
+    .pro2 p {
+        margin-left: 2rem;
+    }
+    
+}
+.head  {
+    width: 76.1rem;
+}
+.head2 {
+    padding-top :1REM; 
+   width:  76rem;
+}
+.head3{
+
+    padding-top :1REM; 
+    width: 76rem;
+}
+.product {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+
+}
+
+
+.producte {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.Captu {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.Captur {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.Capture {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.e {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.vix {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.zz {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.categories {
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.pro1 {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.pro2 {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.pro {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.price {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buy-btn {
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border-color: rgb(51, 99, 243);
+    background-color: #000000;
+    transition: 1s ease;
+}
+
+.buy-btn:hover {
+    transform: scale(1.1);
+}
+
+.buy-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.pro p {
+    margin-left: 2rem;
+}
+
+.pro1 p {
+    margin-left: 3rem;
+}
+
+.pro2 p {
+    margin-left: 2rem;
+}
+.add2{
+ width: 20rem;
+}
+.ADD3{
+
+}
