@@ -2,10 +2,12 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    overflow-x: hidden;
 }
 
 body {
     background: linear-gradient(#161616, #000000);
+
 }
 
 .logo {
@@ -28,13 +30,9 @@ nav {
 .nav-list a {
     text-decoration: none;
     color: white;
-    /* Set link color */
+    
 }
 
-.logo {
-    max-width: 100px;
-    /* Set a maximum width for your logo */
-}
 
 
 nav ul {
@@ -126,7 +124,7 @@ nav a {
 .welcome_text {
     position: absolute;
     left: 20rem;
-    bottom: 15rem;
+    bottom: 1rem;
     z-index: 1;
 }
 
@@ -206,8 +204,6 @@ nav a {
     display: flex;
     padding: .5rem .75rem;
     margin-left: 23rem;
-
-
     background-color: #fff;
     background-clip: padding-box;
    
@@ -220,10 +216,6 @@ nav a {
 
 }
 
-.click {
-    cursor: pointer;
-    margin-left: 7rem;
-}
 
 .location p {
     color: #060606;
@@ -255,11 +247,8 @@ nav a {
 .BANK {
     position: relative;
     display: flex;
-
-
     min-width: 412px;
 }
-
 .BANK h4 {
     position: absolute;
     top: 5rem;
@@ -432,8 +421,123 @@ section {
 .burgermenu {
     display: none;
 }
+.head  {
+    width: 76.1rem;
+}
+.head2 {
+    padding-top :1REM; 
+   width:  76rem;
+}
+.head3{
 
-/* style-mobile.css */
+    padding-top :1REM; 
+    width: 76rem;
+}
+.product {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 5px;
+
+}
+.producte {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.Captu {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.Captur {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.Capture {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.e {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.vix {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.zz {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.categories {
+    display: flex;
+    color: #ffffff;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.pro1 {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.pro2 {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.pro {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.price {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buy-btn {
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border-color: rgb(51, 99, 243);
+    background-color: #000000;
+    transition: 1s ease;
+}
+
+.buy-btn:hover {
+    transform: scale(1.1);
+}
+
+.buy-btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+
+}
+
+.pro p {
+    margin-left: 2rem;
+}
+
+.pro1 p {
+    margin-left: 3rem;
+}
+
+.pro2 p {
+    margin-left: 2rem;
+}
+
+
 @media screen and (max-width: 768px) {
     .logo {
         margin-left: 20rem;
@@ -441,10 +545,8 @@ section {
 
     ul {
         display: none;
-        /* Hide the navigation links */
         flex-direction: column;
         background-color: #333;
-        /* Background color for the mobile menu */
         position: absolute;
         top: 60px;
         left: 0;
@@ -454,7 +556,7 @@ section {
 
     ul.active {
         display: flex;
-        /* Show the navigation links when active */
+        
     }
 
     ul li {
@@ -791,14 +893,10 @@ section {
 
 
     }
- 
-    .head  {
-        width: 56.4rem;
-    }
+
     
     .product {
         display: flex;
-        flex-direction:column; margin-left: 23rem;
         justify-content: space-between;
         border-radius: 5px;
     
@@ -806,32 +904,36 @@ section {
     
     
     .producte {
-        flex-direction:column;
-        margin-left: 19rem;
+        
+        
         display: flex;
         justify-content: space-between;
         border-radius: 5px;
     }
     
     .Captu {
-        width: 300px;
+        margin-left: 1rem;
+        width: 14REM;
         border-radius: 10px;
         margin-bottom: 1rem;
     }
     
     .Captur {
         margin-bottom: 1rem;
-        width: 300px;
+        width: 14REM;
         border-radius: 10px;
     }
     
     .Capture {
+        margin-right: 1rem;
         margin-bottom: 1rem;
-        width: 300px;
+        width: 14rem;
         border-radius: 10px;
     }
     
-    .e {margin-bottom: 1rem;
+    .e {
+        margin-left: 2rem;  
+        margin-bottom: 1rem;
         width: 200px;
         border-radius: 10px;
     }
@@ -843,13 +945,14 @@ section {
     }
     
     .zz {
+        margin-right: 2rem;
         margin-bottom: 1rem;
         width: 200px;
         border-radius: 10px;
     }
     
     .categories {
-        margin-left: 9rem;
+        margin-left: 2rem;
         margin-bottom: 1rem;
         display: flex;
         color: #ffffff;
@@ -917,128 +1020,19 @@ section {
     .pro2 p {
         margin-left: 2rem;
     }
+    .head  {
+        width: 47.6rem;
+    }
+    .head2 {
+        padding-top :1REM; 
+       width:  47.7em;
+    }
+    .head3{
     
-}
-.head  {
-    width: 76.1rem;
-}
-.head2 {
-    padding-top :1REM; 
-   width:  76rem;
-}
-.head3{
-
-    padding-top :1REM; 
-    width: 76rem;
-}
-.product {
-    display: flex;
-    justify-content: space-evenly;
-    border-radius: 5px;
-    
-}
-
-
-.producte {
-    display: flex;
-    justify-content: space-between;
-    border-radius: 5px;
-}
-
-.Captu {
-    width: 300px;
-    border-radius: 10px;
-}
-
-.Captur {
-    width: 300px;
-    border-radius: 10px;
-}
-
-.Capture {
-    width: 300px;
-    border-radius: 10px;
-}
-
-.e {
-    width: 200px;
-    border-radius: 10px;
-}
-
-.vix {
-    width: 200px;
-    border-radius: 10px;
-}
-
-.zz {
-    width: 200px;
-    border-radius: 10px;
-}
-
-.categories {
-    display: flex;
-    color: #ffffff;
-    justify-content: center;
-    padding: 1rem;
-}
-
-.pro1 {
-    display: flex;
-    flex-direction: column;
-    color: #ffffff;
-}
-
-.pro2 {
-    display: flex;
-    flex-direction: column;
-    color: #ffffff;
-}
-
-.pro {
-    display: flex;
-    flex-direction: column;
-    color: #ffffff;
-}
-
-.price {
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.buy-btn {
-    border: 1px solid transparent;
-    padding: 10px 20px;
-    border-radius: 15px;
-    border-color: rgb(51, 99, 243);
-    background-color: #000000;
-    transition: 1s ease;
-}
-
-.buy-btn:hover {
-    transform: scale(1.1);
-}
-
-.buy-btn a {
-    text-decoration: none;
-    color: #fff;
-    font-size: 16px;
-
-}
-
-.pro p {
-    margin-left: 2rem;
-}
-
-.pro1 p {
-    margin-left: 3rem;
-}
-
-.pro2 p {
-    margin-left: 2rem;
-}
-.add2{
- width: 20rem;
-}
-.ADD3{
-
+        padding-top :1REM; 
+        width: 47.7rem;
+    }
+    .ADD2{
+        width: 48rem;
+    }
 }
